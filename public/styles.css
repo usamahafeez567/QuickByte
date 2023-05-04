@@ -1,0 +1,44 @@
+.custom-color {
+    color: #56e39f;
+}
+
+
+  .h1-color {
+    color: #56e39f;
+    text-align: left;
+  }
+
+  .starting{
+    font-size: 50px;
+    margin-bottom: 5%;
+   
+  }
+  
+  .usama-img{
+    width: 60%;
+    height: 90%;
+    border-radius: 40%;
+  }
+
+  .subhan-img{
+    width: 60%;
+    height: 90%;
+    border-radius: 40%;
+    margin-right: 20%;
+  }
+
+  
+
+  .row-3{
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .row-2{
+    text-align: center;
+    
+    padding-bottom: 5%;
+  }
+  
+
+  
