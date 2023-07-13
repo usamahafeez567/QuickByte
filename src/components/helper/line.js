@@ -7,7 +7,7 @@ export default function line() {
       <style>
         {`
         .h-line4 {
-            width: 1310px;
+            width: 100%;
             margin: 0 auto;
             height: 1px;
             background-color: #56e39f;

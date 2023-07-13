@@ -170,7 +170,7 @@ export default function Footer() {
           border-color: #56E39F !important;
         }
         .h-line3 {
-          width: 1310px;
+          width: 100%;
           margin: 0 auto;
           height: 1px;
           background-color: #56e39f;
