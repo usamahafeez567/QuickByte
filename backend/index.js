@@ -1,24 +1,27 @@
 import express from "express";
 import { connect } from "./db/connect.js";
-import router from "./routes/userAuth.js";
+import userAuthRouter from "./routes/userAuth.js";
+import formRouter from "./routes/form.js";
 import cors from "cors";
+import productDetails from "./DataFolder/productDetailsBackend.js";
 
 const app = express();
 connect();
 
 app.use(express.json());
 app.use(cors());
-app.use("/api/userAuth", router);
+app.use("/api/userAuth", userAuthRouter);
+app.use("/api/form", formRouter);
 
-app.listen(5001, () => {
-  console.log("Sever Started");
+app.get("/product", (req, res) => {
+  res.send(productDetails);
 });
 
-// app.post("/post" ,async (req, res) => {
-//         console.log(req.body);
-//         const {data}=req.body;
+app.get("/product/:id", (req, res) => {
+  const product = productDetails.find((p) => p.id === req.params.id);
+  res.send(product);
+});
 
-//         if(data=="subhan"){
-//             res.send({status:"ok"})
-//         }
-//     })
+app.listen(5001, () => {
+  console.log("Server Started");
+});

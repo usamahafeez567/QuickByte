@@ -1,44 +1,56 @@
 .custom-color {
-    color: #56e39f;
+  color: #56e39f;
 }
 
+.h1-color {
+  color: #56e39f;
+  text-align: left;
+}
 
-  .h1-color {
-    color: #56e39f;
-    text-align: left;
-  }
+.starting {
+  font-size: 50px;
+  margin-bottom: 5%;
+}
 
-  .starting{
-    font-size: 50px;
-    margin-bottom: 5%;
-   
-  }
-  
-  .usama-img{
-    width: 60%;
-    height: 90%;
-    border-radius: 40%;
-  }
+.usama-img {
+  width: 60%;
+  height: 90%;
+  border-radius: 40%;
+}
 
-  .subhan-img{
-    width: 60%;
-    height: 90%;
-    border-radius: 40%;
-    margin-right: 20%;
-  }
+.subhan-img {
+  width: 60%;
+  height: 90%;
+  border-radius: 40%;
+  margin-right: 20%;
+}
 
-  
+.row-3 {
+  text-align: center;
+  padding-bottom: 5%;
+}
 
-  .row-3{
-    text-align: center;
-    padding-bottom: 5%;
-  }
+.row-2 {
+  text-align: center;
 
-  .row-2{
-    text-align: center;
-    
-    padding-bottom: 5%;
-  }
-  
+  padding-bottom: 5%;
+}
+.cardclass {
+  padding: 10% !important;
+  background-color: #063f71;
+}
 
-  
+.cardimg {
+  height: 10%;
+}
+.h-line5 {
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+  background-color: #56e39f;
+}
+.product-body {
+  padding: 60px 80px 60px 80px;
+  border-radius: 20px;
+  box-shadow: 0 0.2rem 0.9rem rgba(0, 0, 0, 0.55);
+}

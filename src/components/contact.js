@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "./form";
 
 export default function contact() {
   return (
@@ -56,44 +57,10 @@ export default function contact() {
               </a>
             </div>
           </div>
+          {/* Form Api */}
           <div className="col-lg-6 col-md-6 mb-5 px-4">
             <div className="body-map">
-              <form>
-                <h4 className="custom-color-tag">Let's Get In Touch</h4>
-                <div className="mt-3">
-                  <label className="form-label custom-color-tag">Name:</label>
-                  <input type="text" className="form-control rounded-pill" />
-                </div>
-                <div className="mt-3">
-                  <label className="form-label custom-color-tag">Email:</label>
-                  <input type="email" className="form-control rounded-pill" />
-                </div>
-                <div className="mt-3">
-                  <label className="form-label custom-color-tag">
-                    Phone Number:
-                  </label>
-                  <input
-                    type="tel"
-                    id="typePhone"
-                    className="form-control rounded-pill"
-                  />
-                </div>
-                <div className="mt-3">
-                  <label className="form-label custom-color-tag">
-                    Comment:
-                  </label>
-                  <textarea
-                    className="form-control custom-com"
-                    rows="7"
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="btn mt-4 custom-btn rounded-pill"
-                >
-                  Submit
-                </button>
-              </form>
+              <Form />
             </div>
           </div>
         </div>

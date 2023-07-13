@@ -52,7 +52,7 @@ export default function Footer() {
                 </li>
                 <li className="nav-item mb-2">
                   <a
-                    href="/faqs"
+                    href="/"
                     className="nav-link p-0 text-body-secondary custom-color"
                   >
                     FAQs
@@ -104,41 +104,41 @@ export default function Footer() {
               <p>© 2023 Company, Inc. All rights reserved.</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-6 mt-4">
-              <ul class="list-unstyled d-flex">
-                <li class="ms-auto" href="/contact">
+              <ul className="list-unstyled d-flex">
+                <li className="ms-auto" href="/contact">
                   <a
                     href="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="bi bi-custom bi-facebook"></i>
+                    <i className="bi bi-custom bi-facebook"></i>
                   </a>
                 </li>
-                <li class="ms-3">
+                <li className="ms-3">
                   <a
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="bi bi-custom bi-instagram"></i>
+                    <i className="bi bi-custom bi-instagram"></i>
                   </a>
                 </li>
-                <li class="ms-3">
+                <li className="ms-3">
                   <a
                     href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="bi bi-custom bi-linkedin"></i>
+                    <i className="bi bi-custom bi-linkedin"></i>
                   </a>
                 </li>
-                <li class="ms-3">
+                <li className="ms-3">
                   <a
                     href="https://github.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="bi bi-custom bi-github"></i>
+                    <i className="bi bi-custom bi-github"></i>
                   </a>
                 </li>
               </ul>
@@ -183,6 +183,17 @@ export default function Footer() {
         }
         .bi-custom:hover{
           color: #56E39F !important;
+        }
+        @media (max-width: 768px) {
+          .custom-section {
+            padding: 16px 15px 0px 15px;
+          }
+          .custom-section2 {
+            padding: 0px 15px 0px 15px;
+          }
+          .custom-section3 {
+            padding: 30px;
+          }
         }
         `}
       </style>

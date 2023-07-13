@@ -9,7 +9,10 @@ import Login from "./components/login";
 import Dashboard from "./components/dashboard";
 import Product from "./components/product";
 import Footer from "./components/footer";
+import ProductDescription from "./AllDataFolder/productDescription";
 import "./App.css";
+// import { Provider } from "react-redux";
+// import store from "./store";
 
 function App() {
   return (
@@ -26,6 +29,10 @@ function App() {
               <Route path="/signup" element={<Signup />} />
               <Route path="/login" element={<Login />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route
+                path="/productDescription/:id"
+                element={<ProductDescription />}
+              />
             </Routes>
             <Footer />
           </div>

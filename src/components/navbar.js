@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import Grid from "@mui/material/Grid";
+import Avatar from "@mui/material/Avatar";
 
 export default function Navbar() {
   let navi = useNavigate();
@@ -78,6 +81,19 @@ export default function Navbar() {
                 </Link>
               </li>
             </ul>
+            <Grid
+              item
+              xs={5}
+              style={{
+                color: "#56E39F",
+              }}
+            >
+              <ShoppingCartIcon
+                className="me-3"
+                id="icon"
+                style={{ fontSize: "2rem" }}
+              />
+            </Grid>
             <div className="d-flex">
               <button
                 type="button"
@@ -110,6 +126,10 @@ export default function Navbar() {
                 Sign Up
               </button>
             </div>
+
+            <Grid item xs={2}>
+              <Avatar className="ms-3"></Avatar>
+            </Grid>
           </div>
         </div>
       </nav>

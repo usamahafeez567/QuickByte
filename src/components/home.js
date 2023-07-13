@@ -3,6 +3,7 @@ import image from "../Assets/image/egrocery.jpg";
 import rider from "../Assets/image/rider.png";
 import mobile from "../Assets/image/veg.png";
 import { useNavigate } from "react-router-dom";
+import FAQS from "./faqs";
 
 export default function Home() {
   const navi = useNavigate();
@@ -153,6 +154,11 @@ export default function Home() {
               className="img-fluid img-custom"
             />
           </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <FAQS />
         </div>
       </div>
       <style>
